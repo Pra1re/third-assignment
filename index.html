@@ -13,9 +13,7 @@
         @tailwind utilities;
 
         @layer utilities {
-            .w-custom {
-                width: 450px;
-            }
+            
         }
 
         .manrope {
@@ -39,7 +37,7 @@
                 <h1>Rinterio</h1>
             </div>
             <div>
-                <ul class="nav-ul list-none flex justify-between w-custom">
+                <ul class="nav-ul list-none flex justify-between w-[450px]">
                     <li>Home</li>
                     <li> services</li>
                     <li>Portfolio</li>
@@ -73,15 +71,17 @@
     </section>
     <section class="company-info bg-slate-100 mb-20 p-2 py-20">
 
-        <div class=" flex w-10/12 m-auto  items-center gap-4">
+        <div class=" flex w-10/12 m-auto   gap-4">
 
-            <div class="flex flex-col  items-start gap-4 ">
-                <img src="" alt="">
-                <button>About us</button>
+            <div class="flex flex-col  items-start justify-start gap-4 w-[95%] "><div class="relative">
+                <img src="./image/Vector.png" alt="" class="absolute bottom-[140%] right-[50%]">
+                <button class="px-5 py-1 bg-white rounded-3xl text-center font-bold text-xs ">About us</button></div>
                 <h1 class="text-3xl font-extrabold w-4/6">We design thoughtful, livable space</h1>
-                <p class="w-full">The barn house captivates with its blend of rustic charm and modern sophistication,
+                <p class=" text-[1em] p-0  w-[94%]">The barn house captivates with its blend of rustic charm and modern elegance,
                     featuring weathered wood, sleek metal accents.</p>
-                <div class="bg-white w-11/12 flex gap-4 p-2 rounded-lg">
+
+
+                <div class="bg-white w-[94%] flex gap-4 p-2 rounded-lg py-4 px-5">
 
                     <div><img src="./image/commercial.png" alt="">
                     </div>
@@ -91,7 +91,7 @@
                     </div>
 
                 </div>
-                <div class="bg-white w-11/12 flex gap-4 p-2 rounded-lg">
+                <div class="bg-white w-[94%] flex gap-4 p-2 rounded-lg py-4 px-5">
 
                     <div><img src="./image/residential.png" alt="">
                     </div>
@@ -104,7 +104,7 @@
 
             </div>
 
-            <div class=" self-stretch"><img src="./image/Rectangle.png" alt="" class="h-full"></div>
+            <div class=" self-stretch w-[65%]"><img src="./image/Rectangle.png" alt="" class="h-full"></div>
 
 
 
@@ -121,19 +121,19 @@
 
         <div class="flex w-10/12 m-auto justify-between mt-20 bg-white h-32 items-center px-10 text-center rounded-lg">
             <div>
-                <h1 class="mb-2">235</h1>
+                <h1 class="mb-2 font-bold text-3xl">235+</h1>
                 <p>Happi happi</p>
             </div>
             <div>
-                <h1 class="mb-2">30</h1>
+                <h1 class="mb-2 font-bold text-3xl">30+</h1>
                 <p>Happi happi</p>
             </div>
             <div>
-                <h1 class="mb-2">7</h1>
+                <h1 class="mb-2 font-bold text-3xl">7+</h1>
                 <p>Happi happi</p>
             </div>
             <div>
-                <h1 class="mb-2">50</h1>
+                <h1 class="mb-2 font-bold text-3xl">50+</h1>
                 <p>Happi happi</p>
             </div>
         </div>
